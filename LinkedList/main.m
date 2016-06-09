@@ -192,11 +192,11 @@ int main(int argc, char** argv)
 {
     @autoreleasepool {
         LinkedList *newNode = [LinkedList new];
-        //        [newNode insertNodeAfterTargetData:2 withData:5 success:^(Node *node, BOOL result) {
-        //
-        //        } failure:^(NSError *error) {
-        //
-        //        }];
+                [newNode insertNodeAfterTargetData:2 withData:5 success:^(Node *node, BOOL result) {
+        
+                } failure:^(NSError *error) {
+        
+                }];
         [newNode insertNodeAtHeadWithData:1 success:^(Node *node, BOOL result) {
             //            if(result) NSLog(@"Node with data:%d inserted",(*node).data);
         } failure:^(NSError *error) {
@@ -212,18 +212,18 @@ int main(int argc, char** argv)
         } failure:^(NSError *error) {
             NSLog(@"Error when inserting node %@",error);
         }];
-        //        [newNode insertNodeAfterTargetData:8 withData:5 success:^(Node *node, BOOL result) {
-        //
-        //        } failure:^(NSError *error) {
-        //
-        //        }];
-        //        [newNode deleteNodeAtTailWithSuccess:^(Node *node, BOOL result) {
-        //            if (result) {
-        //                NSLog(@"Node with data:%d deleted",node->data);
-        //            }
-        //        } failure:^(NSError *error) {
-        //            NSLog(@"%@",[[error userInfo] valueForKey:@"error"]);
-        //        }];
+                [newNode insertNodeAfterTargetData:8 withData:5 success:^(Node *node, BOOL result) {
+        
+                } failure:^(NSError *error) {
+        
+                }];
+                [newNode deleteNodeAtTailWithSuccess:^(Node *node, BOOL result) {
+                    if (result) {
+                        NSLog(@"Node with data:%d deleted",node->data);
+                    }
+                } failure:^(NSError *error) {
+                    NSLog(@"%@",[[error userInfo] valueForKey:@"error"]);
+                }];
         [newNode deleteNodeWithTargetData:2 success:^(Node *node, BOOL result) {
             if (result) {
                 NSLog(@"Node with data:%d deleted",node->data);
