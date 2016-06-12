@@ -42,7 +42,7 @@
 -(void)popData
 {
 
-    return [self.linkedList deleteNodeAtHeadWithSuccess:^(Node *node, BOOL result) {
+    [self.linkedList deleteNodeAtHeadWithSuccess:^(Node *node, BOOL result) {
         if (result) {
             NSLog(@"Node with data:%d deleted",node->data);
         }
