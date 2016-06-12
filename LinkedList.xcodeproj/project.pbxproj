@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BEA69D381D0A0E440098B98D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA69D371D0A0E440098B98D /* main.m */; };
+		BEA69D401D0D0FFA0098B98D /* Stacks.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA69D3F1D0D0FFA0098B98D /* Stacks.m */; };
+		BEA69D431D0D248C0098B98D /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA69D421D0D248C0098B98D /* LinkedList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		BEA69D341D0A0E440098B98D /* LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA69D371D0A0E440098B98D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEA69D3E1D0D0FFA0098B98D /* Stacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stacks.h; sourceTree = "<group>"; };
+		BEA69D3F1D0D0FFA0098B98D /* Stacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stacks.m; sourceTree = "<group>"; };
+		BEA69D411D0D248C0098B98D /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		BEA69D421D0D248C0098B98D /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				BEA69D371D0A0E440098B98D /* main.m */,
+				BEA69D3E1D0D0FFA0098B98D /* Stacks.h */,
+				BEA69D3F1D0D0FFA0098B98D /* Stacks.m */,
+				BEA69D411D0D248C0098B98D /* LinkedList.h */,
+				BEA69D421D0D248C0098B98D /* LinkedList.m */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA69D431D0D248C0098B98D /* LinkedList.m in Sources */,
+				BEA69D401D0D0FFA0098B98D /* Stacks.m in Sources */,
 				BEA69D381D0A0E440098B98D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +251,7 @@
 				BEA69D3D1D0A0E440098B98D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
